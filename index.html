@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixtaco - Tacos Saludables</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            width: 100px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        h2 {
+            color: #4CAF50;
+            font-size: 2em;
+        }
+        .content-section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .social-links a {
+            margin: 0 10px;
+            color: #4CAF50;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        .social-links a:hover {
+            color: #333;
+        }
+        form input[type="text"],
+        form input[type="email"],
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        form input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <img src="logo.png" alt="Logo de Mixtaco">
+        <h1>Mixtaco</h1>
+        <p>Un mix para cada antojo</p>
+    </header>
+
+    <!-- Navegación -->
+    <nav>
+        <a href="#quienes-somos">Quiénes Somos</a>
+        <a href="#mision-vision">Misión y Visión</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#redes-sociales">Redes Sociales</a>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="container">
+
+        <!-- Quiénes Somos -->
+        <section id="quienes-somos" class="content-section">
+            <h2>Quiénes Somos</h2>
+            <p>En <strong>Mixtaco</strong>, nos dedicamos a revolucionar el mundo de los tacos. Creemos que comer tacos puede ser una experiencia deliciosa y saludable al mismo tiempo. Por eso, nuestros tacos están hechos con ingredientes frescos, naturales y saludables, manteniendo el auténtico sabor mexicano pero con un enfoque en el bienestar y la nutrición.</p>
+        </section>
+
+        <!-- Misión y Visión -->
+        <section id="mision-vision" class="content-section">
+            <h2>Misión y Visión</h2>
+            <h3>Misión</h3>
+            <p>Nuestra misión es ofrecer a nuestros clientes una experiencia única de tacos saludables, promoviendo la salud y el bienestar sin sacrificar el sabor auténtico de la comida mexicana.</p>
+            <h3>Visión</h3>
+            <p>Ser líderes en el mercado de comida rápida saludable, inspirando a nuestros clientes a adoptar un estilo de vida más saludable sin renunciar al placer de una buena comida.</p>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto" class="content-section">
+            <h2>Contacto</h2>
+            <p>¿Tienes preguntas o quieres saber más sobre nuestros tacos saludables? ¡Contáctanos!</p>
+            <form>
+                <label for="name">Nombre:</label><br>
+                <input type="text" id="name" name="name" placeholder="Tu nombre"><br><br>
+                <label for="email">Correo Electrónico:</label><br>
+                <input type="email" id="email" name="email" placeholder="Tu correo electrónico"><br><br>
+                <label for="message">Mensaje:</label><br>
+                <textarea id="message" name="message" placeholder="Tu mensaje aquí..." rows="4"></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+        <!-- Redes Sociales -->
+        <section id="redes-sociales" class="content-section">
+            <h2>Redes Sociales</h2>
+            <p>¡Síguenos en nuestras redes sociales para conocer nuestras novedades!</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/share/yRwVmr65RPm8mPzL/" target="_blank">Facebook</a> |
+                <a href="https://www.instagram.com/mixtaco_official/profilecard/?igsh=YWVpYzJwNjg3a2xj" target="_blank">Instagram</a> |
+                <a href="https://www.tiktok.com/@mixtaco_official?_t=8qk1MX1uqfN&_r=1" target="_blank">TikTok</a>
+            </div>
+        </section>
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2023 Mixtaco - Tacos Saludables. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
